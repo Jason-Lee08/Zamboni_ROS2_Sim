@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jason/Desktop/zam_ws/install/autocar_nav/lib/python3.8/site-packages",
+        "/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/python3.8/site-packages",
+        "/home/jason/Desktop/autocarws/install/autocar_nav/lib/python3.8/site-packages",
+        "/home/jason/Desktop/autocarws/install/autocar_msgs/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/jason/Desktop/zam_ws/install/autocar_nav/lib/python3.8/site-packages",
+        "/home/jason/Desktop/zam_ws/install/autocar_msgs/lib/python3.8/site-packages",
+        "/home/jason/Desktop/autocarws/install/autocar_nav/lib/python3.8/site-packages",
+        "/home/jason/Desktop/autocarws/install/autocar_msgs/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
+}

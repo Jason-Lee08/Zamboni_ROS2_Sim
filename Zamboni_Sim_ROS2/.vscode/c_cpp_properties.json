@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/jason/Desktop/zam_ws/install/autocar_msgs/include/**",
+        "/home/jason/Desktop/autocarws/install/autocar_msgs/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/jason/Desktop/zam_ws/src/AutoCarROS2/autocar_map/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

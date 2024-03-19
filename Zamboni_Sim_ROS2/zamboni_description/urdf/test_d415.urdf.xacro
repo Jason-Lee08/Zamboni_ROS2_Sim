@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<robot name="realsense2_camera" xmlns:xacro="http://ros.org/wiki/xacro">
+    <xacro:include filename="$(find zamboni_description)/urdf/_d415.urdf.xacro" />
+
+    <link name="base_link" />
+    
+    <xacro:sensor_d415 parent="base_link">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </xacro:sensor_d415>
+
+    <joint name='my_joint' type='fixed'>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="my_link"/>
+    </joint>
+
+    <link name="my_link">
+        <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+                <geometry>
+                    <box size="5 5 5"/>
+                <!-- <mesh filename="package://realsense2_description/meshes/d415.stl" /> -->
+                </geometry>
+        </visual>
+    </link>
+
+</robot>
